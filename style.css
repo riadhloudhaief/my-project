@@ -1,0 +1,127 @@
+#Yamaha {
+
+  padding: 33px;
+
+  width: 142px;
+  position: relative;
+
+}
+
+#texting {
+  position: relative;
+  top: -1px;
+  color: rgb(11, 0, 217);
+}
+
+.buy-button {
+  background-color: rgb(122, 49, 0);
+  color: #ff0000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+#buy-button:hover {
+  background-color: #e50;
+}
+
+
+
+.car-esm {
+  font-weight: bold;
+
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.header {
+
+  padding: 1px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+}
+
+.car-prix {
+
+  font-weight: bold;
+  font-size: x-large;
+  background-color: transparent;
+  color: #118c4f;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+
+  padding: 4rem;
+}
+
+.moto {
+  padding: 2rem;
+  width: 20vw;
+  height: 10 vh;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.moto:hover {
+  transform: scale(1.5);
+  padding: 2rem;
+  max-width: 20vw;
+  max-height: 10 vh;
+}
+
+
+
+#texting:hover {
+  color: #e50;
+}
+
+.dark {
+  width: 50px;
+  position: relative;
+  bottom: 100px;
+  right: 650px;
+  cursor: pointer;
+}
+
+.fb {
+  width: 50px;
+  position: relative;
+  top: -180px;
+  left: 600px;
+}
+
+.ins {
+  width: 50px;
+  position: relative;
+  top: -180px;
+  left: 600px;
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
